@@ -1,0 +1,11 @@
+# vendored engine, produced by scripts/vendor_engine.py before packaging
+src/openpinescript/_engine/
+
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
