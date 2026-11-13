@@ -1,5 +1,9 @@
 # openpinescript
 
+**[📖 Documentation and tutorial](https://be-thomas.github.io/OpenPineScript/)** · **[▶ Zeal Terminal: try it in your browser](https://zealterminal.com)** · [npm engine](https://www.npmjs.com/package/openpinescript) · [GitHub](https://github.com/be-thomas/OpenPineScript)
+
+> **Want to see your script draw on a chart?** [**Zeal Terminal**](https://zealterminal.com) runs this same engine in your browser, in open beta: paste a Pine Script, press apply, and it draws. Nothing to install and no CSV to find.
+
 Run TradingView Pine Script (v1 to v6) locally and offline. It compiles your script to JavaScript and runs it on your own OHLCV candles: indicators, plots and strategy backtests, with no TradingView account and no network.
 
 This package is a thin Python wrapper over the [`openpinescript`](https://github.com/be-thomas/OpenPineScript) npm engine. Its version always matches the engine release it bundles (`openpinescript 0.1.1` bundles engine `0.1.1`; a Python-only fix is released as `0.1.1.postN`). Node.js is bundled too (through [`nodejs-wheel-binaries`](https://pypi.org/project/nodejs-wheel-binaries/)), so you do not need Node or npm installed.
