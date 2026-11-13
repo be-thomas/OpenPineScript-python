@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "openpinescript"
-version = "0.1.1.post2"
+version = "0.2.0"
 description = "Run TradingView Pine Script (v1-v6) locally and offline: indicators, plots and strategy backtests. Python wrapper over the openpinescript engine, no Node install needed."
 readme = "README.md"
 requires-python = ">=3.9"
