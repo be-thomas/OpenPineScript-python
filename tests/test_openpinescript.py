@@ -19,8 +19,8 @@ def cli(*args):
 
 
 def test_versions():
-    assert openpinescript.engine_version() == "0.2.0"
-    assert openpinescript.__version__.startswith("0.2.0")
+    assert openpinescript.engine_version() == "0.2.1"
+    assert openpinescript.__version__.startswith("0.2.1")
 
 
 def test_cli_help():
