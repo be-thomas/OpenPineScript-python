@@ -67,3 +67,8 @@ cd - >/dev/null
 echo
 echo "Built and verified. Upload (needs your PyPI API token) with:"
 echo "  twine upload dist/*"
+echo
+echo "After the upload is live on PyPI, create the GitHub Release:"
+echo "  gh release create v$VERSION --repo be-thomas/OpenPineScript-python --target \$(git rev-parse origin/main) \\"
+echo "    --title \"openpinescript $VERSION (Python)\" \\"
+echo "    --notes \"pip install openpinescript==$VERSION. Bundles the openpinescript engine ${VERSION%%.post*}: https://github.com/be-thomas/OpenPineScript/releases/tag/v${VERSION%%.post*}\""

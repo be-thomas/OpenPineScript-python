@@ -6,7 +6,7 @@
 
 [![Zeal Terminal: a candlestick chart with Bollinger Bands drawn by a Pine Script v5 indicator, beside the Pine editor showing the script that drew them](https://raw.githubusercontent.com/be-thomas/OpenPineScript/main/images/common/pine-chart.png)](https://zealterminal.com)
 
-Run TradingView Pine Script (v1 to v6) locally and offline. It compiles your script to JavaScript and runs it on your own OHLCV candles: indicators, plots and strategy backtests, with no TradingView account and no network.
+A free, open-source TradingView alternative engine for Python: run TradingView Pine Script (v1 to v6) locally and offline. It compiles your script to JavaScript and runs it on your own OHLCV candles: indicators, plots and strategy backtests, with no TradingView account and no network.
 
 This package is a thin Python wrapper over the [`openpinescript`](https://github.com/be-thomas/OpenPineScript) npm engine. Its version always matches the engine release it bundles (`openpinescript 0.1.1` bundles engine `0.1.1`; a Python-only fix is released as `0.1.1.postN`). Node.js is bundled too (through [`nodejs-wheel-binaries`](https://pypi.org/project/nodejs-wheel-binaries/)), so you do not need Node or npm installed.
 
